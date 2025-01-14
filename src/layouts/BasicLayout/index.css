@@ -1,0 +1,7 @@
+.content-container {
+    @apply min-h-screen flex
+}
+
+.content {
+    @apply flex-1
+}

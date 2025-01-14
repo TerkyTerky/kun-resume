@@ -1,11 +1,20 @@
 import React from "react";
 import GlobalHeader from "../components/GlobalHeader";
+import GlobalFooter from "../components/GlobalFooter";
+import "./index.css";
 
-const BasicLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
+const BasicLayout = ({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) => {
   return (
     <div>
       <GlobalHeader />
-      <main className="container">{children}</main>
+      <div className="content-container">
+        <main className="content">{children}</main>
+      </div>
+      <GlobalFooter />
     </div>
   );
 };

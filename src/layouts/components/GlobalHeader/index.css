@@ -1,0 +1,7 @@
+.header {
+    @apply bg-black text-white p-4 shadow-md;
+}
+
+.header-container {
+    @apply flex
+}
