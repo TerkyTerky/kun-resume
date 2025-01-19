@@ -1,6 +1,6 @@
 import React from "react";
-import GlobalHeader from "../components/GlobalHeader";
-import GlobalFooter from "../components/GlobalFooter";
+import GlobalHeader from "../../components/GlobalHeader";
+import GlobalFooter from "../../components/GlobalFooter";
 import "./index.css";
 
 const BasicLayout = ({

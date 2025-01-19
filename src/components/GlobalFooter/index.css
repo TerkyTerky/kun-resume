@@ -1,0 +1,7 @@
+.footer {
+    @apply bg-black text-white p-4 shadow-md
+}
+
+.footer-container {
+    @apply flex
+}
