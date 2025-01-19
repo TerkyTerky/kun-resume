@@ -1,9 +1,7 @@
-import './index.css';
-
 const GlobalFooter = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className="bg-black text-white p-4 shadow-md">
+      <div className="flex">
         <h1>footer</h1>
       </div>
     </footer>

@@ -1,7 +1,6 @@
 import React from "react";
-import GlobalHeader from "../../components/GlobalHeader";
-import GlobalFooter from "../../components/GlobalFooter";
-import "./index.css";
+import GlobalHeader from "../components/GlobalHeader";
+import GlobalFooter from "../components/GlobalFooter";
 
 const BasicLayout = ({
   children,
@@ -11,8 +10,8 @@ const BasicLayout = ({
   return (
     <div>
       <GlobalHeader />
-      <div className="content-container">
-        <main className="content">{children}</main>
+      <div className="min-h-screen flex">
+        <main className="flex-1">{children}</main>
       </div>
       <GlobalFooter />
     </div>

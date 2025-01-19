@@ -5,12 +5,11 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
-import './index.css';
 
 const GlobalHeader = () => {
   return (
-    <header className="header">
-      <div className="header-container">
+    <header className="bg-black text-white p-4 shadow-md">
+      <div className="flex">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>

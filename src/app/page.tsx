@@ -1,7 +1,9 @@
+import CustomMarquee from "@/components/CustomMarquee";
+
 export default function Home() {
   return (
     <div>
-      <h1>content</h1>
+      <CustomMarquee />
     </div>
   );
 }
